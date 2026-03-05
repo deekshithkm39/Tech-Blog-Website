@@ -1,18 +1,22 @@
-# Tech Blog Website
+# YourBlog
 
-A modern **Tech Blog platform** built using **HTML, TailwindCSS, and JavaScript**.
-This project allows users to create, read, search, and bookmark blog posts with a clean and responsive UI.
+**YourBlog** is a modern and lightweight tech blogging platform built using **HTML, TailwindCSS, and JavaScript**.
+It allows users to create, explore, and bookmark blog posts with a clean UI and responsive design.
+
+---
 
 ## 🚀 Features
 
-* ✍️ Create new blog posts
-* 🔍 Search posts in real-time
+* ✍️ Create and publish blog posts
+* 🔍 Search blogs instantly
 * 📑 Bookmark posts for later reading
 * 🌙 Dark / Light mode toggle
-* 📖 Read full blog posts in a popup modal
-* 💾 LocalStorage support (data persists in browser)
+* 📖 Full blog view using modal popup
+* 💾 LocalStorage support (posts persist after refresh)
 * 🤖 AI-powered blog generation
-* 📱 Fully responsive UI
+* 📱 Responsive design for all devices
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -27,39 +31,44 @@ This project allows users to create, read, search, and bookmark blog posts with 
 * LocalStorage
 * Fetch API
 
+---
+
+## 📂 Project Structure
+
+```
+YourBlog
+│
+├── blog.html      # Main webpage
+├── blogg.js       # Blog logic and functionality
+└── README.md      # Project documentation
+```
+
+---
+
 ## ⚙️ How It Works
 
-1. Users can **create blog posts** using the form.
-2. Posts are stored in **LocalStorage** so they persist after refresh.
-3. The **search feature** filters posts instantly.
+1. Users can **create new blog posts** using the input form.
+2. Blog posts are saved in **LocalStorage** so they remain after page refresh.
+3. The **search feature** filters blogs dynamically.
 4. Users can **bookmark posts** to read later.
-5. Clicking a post opens a **modal with the full content**.
-6. AI generation can create blog content automatically based on a topic.
-
-## 📸 Screenshots
-
-You can add screenshots of the UI here to showcase the project.
-
-Example:
-```
-Add screenshots of your blog UI here
-```
+5. Clicking a blog opens the **full content in a modal popup**.
+6. AI can generate blog content automatically from a topic.
 
 ---
 
 ## 🔮 Future Improvements
 
-* Spring Boot backend integration
-* Database storage (MySQL/PostgreSQL)
-* User authentication
+* Backend integration using **Spring Boot**
+* Database storage (MySQL / PostgreSQL)
+* User authentication system
 * Blog editing and deletion
-* Comments system
-* Image uploads for posts
-* Markdown support
+* Comments section
+* Image uploads for blogs
+* Markdown blog support
 
 ---
 
-## 📌 Installation
+## 📦 Installation
 
 Clone the repository:
 
@@ -67,7 +76,7 @@ Clone the repository:
 git clone https://github.com/deekshithkm39/Tech-Blog-Website.git
 ```
 
-Open the project folder:
+Navigate to the project folder:
 
 ```bash
 cd Tech-Blog-Website
